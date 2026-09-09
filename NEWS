@@ -17,6 +17,8 @@ Changes affecting specific commands:
       exon (exon index and the number of exons), and exon_position (position
       within the exon and the exon length)
 
+    - Fix a segfault caused by incorrect handling of symbolic ALT alleles
+
 * bcftools +fill-tags
 
     - Add two tags to annotate variant sequence context:
